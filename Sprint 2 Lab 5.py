@@ -6,7 +6,6 @@ from easytello import Tello
 
 # Initialize Tello drone
 myDrone = Tello()
-myDrone.connect()
 myDrone.streamon()
 
 # --- FILE PATH SETUP ---
