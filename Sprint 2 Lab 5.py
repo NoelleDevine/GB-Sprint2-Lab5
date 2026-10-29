@@ -23,6 +23,8 @@ frame_height = 720
 fps = 30
 
 # Create VideoWriter object using the full absolute path string
+
+#this file format would NOT work on the windows laptops
 codec = cv2.VideoWriter.fourcc(*'mp4v')
 video_writer = cv2.VideoWriter(str(output_path), codec, fps, (frame_width, frame_height))
 
